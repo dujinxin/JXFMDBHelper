@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JXFMDBHelper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'DB manager for FMDB'
 
 # This description is used to generate tags and improve search results.

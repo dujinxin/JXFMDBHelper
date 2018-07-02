@@ -9,15 +9,15 @@
 import Foundation
 import FMDB
 
-private let dbName = "BaseDB"
+public let dbName = "BaseDB"
 
-public class BaseDB {
+open class BaseDB {
     public static let `default` = BaseDB(name: dbName)
     
-    var manager : DBManager!
+    public var manager : DBManager!
     var tableName : String = dbName
     
-    init(name:String = dbName) {
+    public init(name:String = dbName) {
         tableName = name
         manager = DBManager(name: name)
     }

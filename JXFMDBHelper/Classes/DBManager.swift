@@ -10,14 +10,13 @@ import Foundation
 import FMDB
 
 private let userPath = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)[0]
-private let dbName = "DBManager"
 
-class DBManager {
+public class DBManager {
     
-    static let `default` = DBManager(name: dbName)
+    static let `default` = DBManager(name: "DBManager")
     
     var databaseQueue : FMDatabaseQueue?
-    var tableName : String = dbName
+    var tableName : String = "DBManager"
     
 //    /// 表名
 //    static var name : String {
@@ -28,7 +27,7 @@ class DBManager {
     }
     
     /// 检查表是否存在
-    var isExist: Bool {
+    public var isExist: Bool {
         return examine()
     }
     init(name:String = dbName) {

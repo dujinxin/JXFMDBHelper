@@ -11,6 +11,7 @@
 		3579D02020EA4474004CD06D /* JXDBListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3579D01C20EA4474004CD06D /* JXDBListViewController.swift */; };
 		3579D02120EA4474004CD06D /* JXDBListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3579D01D20EA4474004CD06D /* JXDBListCell.xib */; };
 		3579D02220EA4474004CD06D /* JXEditDBUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3579D01E20EA4474004CD06D /* JXEditDBUserController.swift */; };
+		3579D02420EA4E9D004CD06D /* UserDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3579D02320EA4E9D004CD06D /* UserDB.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 		3579D01C20EA4474004CD06D /* JXDBListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXDBListViewController.swift; sourceTree = "<group>"; };
 		3579D01D20EA4474004CD06D /* JXDBListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JXDBListCell.xib; sourceTree = "<group>"; };
 		3579D01E20EA4474004CD06D /* JXEditDBUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXEditDBUserController.swift; sourceTree = "<group>"; };
+		3579D02320EA4E9D004CD06D /* UserDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDB.swift; sourceTree = "<group>"; };
 		3DAE7E7E59F15BB1CD68CE28 /* Pods-JXFMDBHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXFMDBHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXFMDBHelper_Tests/Pods-JXFMDBHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52781B2331DB2F723DCEAEE7 /* Pods-JXFMDBHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXFMDBHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXFMDBHelper_Example/Pods-JXFMDBHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JXFMDBHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXFMDBHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 				3579D01A20EA4474004CD06D /* friend */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				3579D02320EA4E9D004CD06D /* UserDB.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -345,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3579D02420EA4E9D004CD06D /* UserDB.swift in Sources */,
 				3579D02220EA4474004CD06D /* JXEditDBUserController.swift in Sources */,
 				3579D01F20EA4474004CD06D /* JXDBListCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
